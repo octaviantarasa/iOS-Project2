@@ -7,6 +7,7 @@
 //
 
 #import "SignInViewController.h"
+#import "HomeViewController.h"
 
 @interface SignInViewController ()
 
@@ -36,5 +37,13 @@
 }
 
 - (IBAction)signIn:(id)sender {
+    
+    UIViewController *homeViewContr = [[HomeViewController alloc]
+                                    initWithNibName:@"HomeViewController" bundle:nil];
+    UINavigationController *homePageNavigationController = [[UINavigationController alloc] initWithRootViewController:homeViewContr];
+    
+    self.view.window.rootViewController = homePageNavigationController;
+        
+    
 }
 @end

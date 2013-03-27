@@ -22,6 +22,8 @@
 		8C7369D91701F7AE009EFD75 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C7369D31701F7AE009EFD75 /* SignInViewController.xib */; };
 		8C7369E41701FB87009EFD75 /* FirstPageViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7369E21701FB87009EFD75 /* FirstPageViewControllers.m */; };
 		8C7369E51701FB87009EFD75 /* FirstPageViewControllers.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C7369E31701FB87009EFD75 /* FirstPageViewControllers.xib */; };
+		8CDCF03B1702E4870076E99A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDCF0391702E4870076E99A /* HomeViewController.m */; };
+		8CDCF03C1702E4870076E99A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CDCF03A1702E4870076E99A /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,9 @@
 		8C7369E11701FB87009EFD75 /* FirstPageViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPageViewControllers.h; sourceTree = "<group>"; };
 		8C7369E21701FB87009EFD75 /* FirstPageViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPageViewControllers.m; sourceTree = "<group>"; };
 		8C7369E31701FB87009EFD75 /* FirstPageViewControllers.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstPageViewControllers.xib; sourceTree = "<group>"; };
+		8CDCF0381702E4870076E99A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8CDCF0391702E4870076E99A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8CDCF03A1702E4870076E99A /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,9 @@
 		8C7369A21701F750009EFD75 = {
 			isa = PBXGroup;
 			children = (
+				8CDCF0381702E4870076E99A /* HomeViewController.h */,
+				8CDCF0391702E4870076E99A /* HomeViewController.m */,
+				8CDCF03A1702E4870076E99A /* HomeViewController.xib */,
 				8C7369E11701FB87009EFD75 /* FirstPageViewControllers.h */,
 				8C7369E21701FB87009EFD75 /* FirstPageViewControllers.m */,
 				8C7369E31701FB87009EFD75 /* FirstPageViewControllers.xib */,
@@ -182,6 +190,7 @@
 				8C7369D51701F7AE009EFD75 /* CreateAccountViewController.xib in Resources */,
 				8C7369D91701F7AE009EFD75 /* SignInViewController.xib in Resources */,
 				8C7369E51701FB87009EFD75 /* FirstPageViewControllers.xib in Resources */,
+				8CDCF03C1702E4870076E99A /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +206,7 @@
 				8C7369D41701F7AE009EFD75 /* CreateAccountViewController.m in Sources */,
 				8C7369D81701F7AE009EFD75 /* SignInViewController.m in Sources */,
 				8C7369E41701FB87009EFD75 /* FirstPageViewControllers.m in Sources */,
+				8CDCF03B1702E4870076E99A /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +321,7 @@
 				8C7369CA1701F750009EFD75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

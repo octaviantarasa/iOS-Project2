@@ -10,6 +10,7 @@
 #import "FirstPageViewControllers.h"
 
 @implementation mainAppDelegate
+@synthesize window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
