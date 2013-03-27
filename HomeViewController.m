@@ -13,9 +13,32 @@
 @end
 
 @implementation HomeViewController
+@synthesize menuTableView;
+@synthesize menuView;
+@synthesize contentToolbar;
+@synthesize contentView;
+@synthesize menuLabelColor;
 
 - (void) toggleMenu: (id) sender
 {
+    
+    
+    [UIView beginAnimations:@"Menu Slide" context:nil];
+    [UIView setAnimationDuration:0.2];
+    
+    if(self.contentView.frame.origin.x == 0) //Menu is hidden
+    {
+        CGRect newFrame = CGRectOffset(self.contentView.frame, self.menuView.frame.size.width, 0.0);
+        self.contentView.frame = newFrame;
+    }
+    else //Menu is shown
+    {
+        [menuTableView reloadData];
+        CGRect newFrame = CGRectOffset(self.contentView.frame, -(self.menuView.frame.size.width), 0.0);
+        self.contentView.frame = newFrame;
+    }
+    
+    [UIView commitAnimations];
 }
 
 - (void) loadView
