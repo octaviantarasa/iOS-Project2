@@ -5,9 +5,9 @@
 //  Created by Laborator iOS on 3/26/13.
 //  Copyright (c) 2013 Laborator iOS. All rights reserved.
 //
-
+#import "mainAppDelegate.h"
 #import "SignInViewController.h"
-
+#import "InstagramViewController.h"
 @interface SignInViewController ()
 
 @end
@@ -36,5 +36,10 @@
 }
 
 - (IBAction)signIn:(id)sender {
+
+    UIViewController *instagram = [[InstagramViewController alloc] initWithNibName:@"InstagramViewController" bundle:nil];
+    self.view.window.rootViewController = instagram;
+       
+    
 }
 @end

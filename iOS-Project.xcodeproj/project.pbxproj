@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C30791F1702E98F005A80B6 /* 112-group.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3079111702E98E005A80B6 /* 112-group.png */; };
+		8C3079201702E98F005A80B6 /* 112-group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3079121702E98E005A80B6 /* 112-group@2x.png */; };
+		8C3079211702E98F005A80B6 /* 123-id-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3079131702E98E005A80B6 /* 123-id-card.png */; };
+		8C3079221702E98F005A80B6 /* 123-id-card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3079141702E98E005A80B6 /* 123-id-card@2x.png */; };
+		8C3079231702E98F005A80B6 /* 29-heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3079151702E98E005A80B6 /* 29-heart.png */; };
+		8C3079241702E98F005A80B6 /* 29-heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3079161702E98E005A80B6 /* 29-heart@2x.png */; };
+		8C3079251702E98F005A80B6 /* cameraTabBarItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3079171702E98E005A80B6 /* cameraTabBarItem.png */; };
+		8C3079261702E98F005A80B6 /* cameraTabBarItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3079181702E98E005A80B6 /* cameraTabBarItem@2x.png */; };
+		8C3079271702E98F005A80B6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3079191702E98E005A80B6 /* Icon.png */; };
+		8C3079281702E98F005A80B6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C30791A1702E98E005A80B6 /* Icon@2x.png */; };
+		8C3079291702E98F005A80B6 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C30791B1702E98E005A80B6 /* news.png */; };
+		8C30792A1702E98F005A80B6 /* news@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C30791C1702E98E005A80B6 /* news@2x.png */; };
+		8C30792B1702E98F005A80B6 /* InstagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30791E1702E98E005A80B6 /* InstagramViewController.m */; };
+		8C30792E1702EAAD005A80B6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C30792D1702EAAD005A80B6 /* BaseViewController.m */; };
 		8C7369AF1701F750009EFD75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7369AE1701F750009EFD75 /* UIKit.framework */; };
 		8C7369B11701F750009EFD75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7369B01701F750009EFD75 /* Foundation.framework */; };
 		8C7369B31701F750009EFD75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7369B21701F750009EFD75 /* CoreGraphics.framework */; };
@@ -25,6 +39,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C3079111702E98E005A80B6 /* 112-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "112-group.png"; sourceTree = "<group>"; };
+		8C3079121702E98E005A80B6 /* 112-group@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "112-group@2x.png"; sourceTree = "<group>"; };
+		8C3079131702E98E005A80B6 /* 123-id-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "123-id-card.png"; sourceTree = "<group>"; };
+		8C3079141702E98E005A80B6 /* 123-id-card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "123-id-card@2x.png"; sourceTree = "<group>"; };
+		8C3079151702E98E005A80B6 /* 29-heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29-heart.png"; sourceTree = "<group>"; };
+		8C3079161702E98E005A80B6 /* 29-heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "29-heart@2x.png"; sourceTree = "<group>"; };
+		8C3079171702E98E005A80B6 /* cameraTabBarItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraTabBarItem.png; sourceTree = "<group>"; };
+		8C3079181702E98E005A80B6 /* cameraTabBarItem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameraTabBarItem@2x.png"; sourceTree = "<group>"; };
+		8C3079191702E98E005A80B6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8C30791A1702E98E005A80B6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		8C30791B1702E98E005A80B6 /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		8C30791C1702E98E005A80B6 /* news@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "news@2x.png"; sourceTree = "<group>"; };
+		8C30791D1702E98E005A80B6 /* InstagramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramViewController.h; sourceTree = "<group>"; };
+		8C30791E1702E98E005A80B6 /* InstagramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramViewController.m; sourceTree = "<group>"; };
+		8C30792C1702EAAC005A80B6 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		8C30792D1702EAAD005A80B6 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		8C7369AB1701F750009EFD75 /* iOS-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7369AE1701F750009EFD75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8C7369B01701F750009EFD75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,9 +93,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C30790F1702E98E005A80B6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8C3079101702E98E005A80B6 /* Instagram */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8C3079101702E98E005A80B6 /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				8C3079111702E98E005A80B6 /* 112-group.png */,
+				8C3079121702E98E005A80B6 /* 112-group@2x.png */,
+				8C3079131702E98E005A80B6 /* 123-id-card.png */,
+				8C3079141702E98E005A80B6 /* 123-id-card@2x.png */,
+				8C3079151702E98E005A80B6 /* 29-heart.png */,
+				8C3079161702E98E005A80B6 /* 29-heart@2x.png */,
+				8C3079171702E98E005A80B6 /* cameraTabBarItem.png */,
+				8C3079181702E98E005A80B6 /* cameraTabBarItem@2x.png */,
+				8C3079191702E98E005A80B6 /* Icon.png */,
+				8C30791A1702E98E005A80B6 /* Icon@2x.png */,
+				8C30791B1702E98E005A80B6 /* news.png */,
+				8C30791C1702E98E005A80B6 /* news@2x.png */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
 		8C7369A21701F750009EFD75 = {
 			isa = PBXGroup;
 			children = (
+				8C30792C1702EAAC005A80B6 /* BaseViewController.h */,
+				8C30792D1702EAAD005A80B6 /* BaseViewController.m */,
+				8C30790F1702E98E005A80B6 /* Images */,
+				8C30791D1702E98E005A80B6 /* InstagramViewController.h */,
+				8C30791E1702E98E005A80B6 /* InstagramViewController.m */,
 				8C7369E11701FB87009EFD75 /* FirstPageViewControllers.h */,
 				8C7369E21701FB87009EFD75 /* FirstPageViewControllers.m */,
 				8C7369E31701FB87009EFD75 /* FirstPageViewControllers.xib */,
@@ -182,6 +244,18 @@
 				8C7369D51701F7AE009EFD75 /* CreateAccountViewController.xib in Resources */,
 				8C7369D91701F7AE009EFD75 /* SignInViewController.xib in Resources */,
 				8C7369E51701FB87009EFD75 /* FirstPageViewControllers.xib in Resources */,
+				8C30791F1702E98F005A80B6 /* 112-group.png in Resources */,
+				8C3079201702E98F005A80B6 /* 112-group@2x.png in Resources */,
+				8C3079211702E98F005A80B6 /* 123-id-card.png in Resources */,
+				8C3079221702E98F005A80B6 /* 123-id-card@2x.png in Resources */,
+				8C3079231702E98F005A80B6 /* 29-heart.png in Resources */,
+				8C3079241702E98F005A80B6 /* 29-heart@2x.png in Resources */,
+				8C3079251702E98F005A80B6 /* cameraTabBarItem.png in Resources */,
+				8C3079261702E98F005A80B6 /* cameraTabBarItem@2x.png in Resources */,
+				8C3079271702E98F005A80B6 /* Icon.png in Resources */,
+				8C3079281702E98F005A80B6 /* Icon@2x.png in Resources */,
+				8C3079291702E98F005A80B6 /* news.png in Resources */,
+				8C30792A1702E98F005A80B6 /* news@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +271,8 @@
 				8C7369D41701F7AE009EFD75 /* CreateAccountViewController.m in Sources */,
 				8C7369D81701F7AE009EFD75 /* SignInViewController.m in Sources */,
 				8C7369E41701FB87009EFD75 /* FirstPageViewControllers.m in Sources */,
+				8C30792B1702E98F005A80B6 /* InstagramViewController.m in Sources */,
+				8C30792E1702EAAD005A80B6 /* BaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +387,7 @@
 				8C7369CA1701F750009EFD75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
